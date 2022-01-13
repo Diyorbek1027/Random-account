@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="app">
+<!-- 
+        <p>{{name}}</p>
+        <h1>{{name}}</h1> -->
+        <!-- <h1>{{name}}<hr>{{age}}<hr>{{jinsi}}<hr>{{raqam}}</h1> -->
+        <!-- <h1>{{name}}</h1>
+        <h1>{{age}}</h1>
+        <p>{{list}}</p>
+        <h1>{{getAge('30')}}</h1>
+        
+
+        <input type="text" v-bind:value="name">
+        <a v-on:dblclick = "click" href="https://kun.uz">Kum</a>
+        <a v-bind:href="website" >Kun uz</a> -->
+            <img v-bind:src="photo" alt="" >
+            <h1>{{first}} {{last}}</h1>
+            <!-- <p>{{gender}}</p> -->
+            <h3>{{email}}</h3>
+            <button :class="gender" v-on:click = getUser()>Random</button>
+    </div>
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>
